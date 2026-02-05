@@ -1,4 +1,4 @@
-# ⚽ Soccer Fatigue & Performance Analysis Engine
+# ⚽ market_analysis & Performance Analysis Engine
 
 ![Scientific Analysis](https://img.shields.io/badge/Status-Live_Data-green)
 ![Brand](https://img.shields.io/badge/Source-YourSoccerTips.com-blue)
