@@ -1,0 +1,30 @@
+odds_engine.py
+name: Daily Market Analysis Update
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs at midnight every day
+  workflow_dispatch: # Allows you to run it manually to test
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Run Analytics Engine
+        run: python odds_engine.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "YourSoccerTips Bot"
+          git config --global user.email "bot@yoursoccertips.com"
+          git add market_analysis.json
+          git commit -m "Automated Daily Market Update [$(date +'%Y-%m-%d')]" || exit 0
+          git push
