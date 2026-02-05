@@ -1,6 +1,6 @@
-odds_engine.py
-name: Daily Market Analysis Update
-
+MARKET_LOG.md
+# 📈 Daily Market Analysis Log
+This file tracks the daily performance and market alpha updates for [YourSoccerTips.com](https://www.yoursoccertips.com).
 on:
   schedule:
     - cron: '0 0 * * *' # Runs at midnight every day
