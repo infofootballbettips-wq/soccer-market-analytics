@@ -19,4 +19,6 @@ This repository acts as the public documentation for:
 The `odds_engine.py` script runs every 24 hours to refresh market fatigue scores.
 
 ---
-*Developed by the Data Science Team at [YourSoccerTips.com](https://www.yoursoccertips.com).*
+*Developed by the Data Science Team at [YourSoccerTips.com](https://www.yoursoccertips.com).*## 📊 Strategy Performance & Results
+The live tracking of my 10-step strategy is maintained here:
+[View Live Google Sheet Results](https://docs.google.com/spreadsheets/d/1lT-mRhdYhqr9IEa5_xgEaVr_1K4PQjgNZ6_mIOOSkBE/edit?usp=sharing)
